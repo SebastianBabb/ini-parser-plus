@@ -1,7 +1,8 @@
 /**
  *  Config parser module
+ *  @file Configuration parser error.
  *  @module  src/config-parser
- *
+ *  @author Sebastian Babb
  */
 class ConfigError extends Error {
     constructor(code = 0, ...params) {

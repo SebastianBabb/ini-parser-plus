@@ -1,6 +1,8 @@
 /**
  *  Config parser module
+ *  @file INI configuration file parser with .local file extension support.
  *  @module  src/config-parser
+ *  @author Sebastian Babb
  *
  */
 const fs = require("fs");
