@@ -1,0 +1,9 @@
+; Entirely new sections that should be picked up and added to the config object.
+[general]
+hostname="dev.my-dev-box.com";
+
+[webservice]
+;server="dev.backend.com";  This line will be ignored.
+enable-tls=false; ; Redeclared property that should ovverride the base config files.
+enable-logs=true; ; New property that should be added to the config object.
+

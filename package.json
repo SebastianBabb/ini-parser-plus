@@ -1,0 +1,26 @@
+{
+  "name": "config-parser",
+  "version": "1.0.0",
+  "description": "INI configuration file parser with .local file support",
+  "main": "src/config-parser",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "ini",
+    "config",
+    "configuration",
+    "parser"
+  ],
+  "author": "Sebastian Babb",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-run": "^1.7.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
