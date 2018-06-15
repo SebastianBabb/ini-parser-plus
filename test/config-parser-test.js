@@ -185,7 +185,7 @@ describe("These tests check the functionality of the public accessible functions
         });
     });
 
-    describe("getSectionsProperties()", function() {
+    describe("getSectionProperties()", function() {
         it("Should return an array of the specified section's properties.", function() {
             config_params = {
                directory: "./test/config",

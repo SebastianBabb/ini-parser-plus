@@ -1,7 +1,7 @@
 {
-  "name": "config-parser",
+  "name": "ini-parser-plus",
   "version": "1.0.0",
-  "description": "INI configuration file parser with .local file support",
+  "description": "INI configuration file parser with .local file support.",
   "main": "src/config-parser",
   "scripts": {
     "test": "mocha --recursive"
