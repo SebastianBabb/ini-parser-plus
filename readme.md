@@ -54,10 +54,7 @@ config_parser.setPath('./myConfig.ini');
 // Get all sections.
 var sections = config_parser.getSection();
 
-// Get all properties for a specific section.
-var properties = config_parser.getSectionProperties('webservice');
-
-console.log(properties);
+console.log(sections);
 
 [ 'general', 'ajax', 'debug' ]
 
